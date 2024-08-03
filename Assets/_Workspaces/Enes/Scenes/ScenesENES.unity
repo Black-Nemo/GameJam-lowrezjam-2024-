@@ -209,12 +209,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+  camera: {fileID: 1358866921}
   rotate: 0
---- !u!4 &436736057 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2031026519933051874, guid: 71a6b2c056f93d44d9995b98b97d599d, type: 3}
-  m_PrefabInstance: {fileID: 2031026519303876921}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1358866918
 GameObject:
   m_ObjectHideFlags: 0
@@ -292,7 +288,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
-  orthographic: 0
+  orthographic: 1
   orthographic size: 5
   m_Depth: 0
   m_CullingMask:
@@ -317,12 +313,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1358866918}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.28044873, y: 0.16987179, z: 0}
-  m_LocalScale: {x: 0.16025642, y: 0.16025642, z: 0.16025642}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 436736057}
-  m_RootOrder: 2
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1849637648
 GameObject:
@@ -449,6 +445,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 242873215270747880, guid: c6bc53473add81f4693a2b72e182d910, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 242873215330926352, guid: c6bc53473add81f4693a2b72e182d910, type: 3}
       propertyPath: m_SizeDelta.x
       value: 0
