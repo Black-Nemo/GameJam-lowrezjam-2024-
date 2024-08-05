@@ -54,7 +54,7 @@ public class CharacterMovement : MonoBehaviour
     {
        // Debug.Log(Input.mousePosition);
         Vector3 mousePos = camera.ScreenToWorldPoint(Input.mousePosition);
-        Debug.Log(mousePos);
+        //Debug.Log(mousePos);
         Vector2 direction = (mousePos - transform.position).normalized;
         if (direction.x < 0)
         {
