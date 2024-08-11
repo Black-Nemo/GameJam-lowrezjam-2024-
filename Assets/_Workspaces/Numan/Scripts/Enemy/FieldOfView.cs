@@ -7,12 +7,14 @@ public class FieldOfView : MonoBehaviour
     public float viewRadius;
     [Range(0, 360)]
     public float viewAngle;
+    public Enemy myEnemy;
 
     public LayerMask targetMask;
     public LayerMask obstacleMask;
 
     public Transform player;
     public List<Transform> visibleTargets = new List<Transform>();
+    public string tagName;
 
     public float factor;
 
@@ -47,7 +49,14 @@ public class FieldOfView : MonoBehaviour
                 if (!Physics2D.Raycast(transform.position, dirToTarget, dstToTarget, obstacleMask))
                 {
                     visibleTargets.Add(target);
-                    player = target;  // Oyuncu tespit edildi
+                    if (target.TryGetComponent(out Enemy enemy))
+                    {
+                        if (enemy.isInfected && !myEnemy.isInfected)
+                        {
+                            player = target;
+                        }
+                    }
+                    // Oyuncu tespit edildi
                 }
             }
         }
@@ -57,7 +66,7 @@ public class FieldOfView : MonoBehaviour
     {
         if (!angleIsGlobal)
         {
-            angleInDegrees += transform.eulerAngles.z-factor;
+            angleInDegrees += transform.eulerAngles.z - factor;
         }
         return new Vector2(Mathf.Sin(angleInDegrees * Mathf.Deg2Rad), Mathf.Cos(angleInDegrees * Mathf.Deg2Rad));
     }
