@@ -330,7 +330,6 @@ ScriptedImporter:
     cells:
     - name: 8-Recovered_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -339,7 +338,6 @@ ScriptedImporter:
       spriteId: 9a0951db0c7c2a44e9718701fc58cd52
     - name: 8-Recovered_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -348,7 +346,6 @@ ScriptedImporter:
       spriteId: 30c1c35466160864896ae04b95d6a81f
     - name: 8-Recovered_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -357,7 +354,6 @@ ScriptedImporter:
       spriteId: 2a067e8a4eace714d8e80f46b887b8aa
     - name: 8-Recovered_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -366,7 +362,6 @@ ScriptedImporter:
       spriteId: 6a1397f417ef42f47910aeddc5e9014c
     - name: 8-Recovered_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -375,7 +370,6 @@ ScriptedImporter:
       spriteId: f6a937c8c4efb2e4faecb333dcaaaaa6
     - name: 8-Recovered_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -384,7 +378,6 @@ ScriptedImporter:
       spriteId: e7fa0fbcbc4cb07439660f11f71e7261
     - name: 8-Recovered_Frame_6
       frameIndex: 6
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -393,7 +386,6 @@ ScriptedImporter:
       spriteId: facf8699e7d67f04fb8f3c9e13532b51
     - name: 8-Recovered_Frame_7
       frameIndex: 7
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -402,7 +394,6 @@ ScriptedImporter:
       spriteId: fc36bb7e1e168c241b8c91065820c8fe
     - name: 8-Recovered_Frame_8
       frameIndex: 8
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -411,7 +402,6 @@ ScriptedImporter:
       spriteId: 2905b385bcbb6cb4994c261ac3558615
     - name: 8-Recovered_Frame_9
       frameIndex: 9
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0

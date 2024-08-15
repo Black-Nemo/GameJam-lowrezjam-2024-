@@ -314,8 +314,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd364dfbaa067d1479f5d1e77213f25b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healtBar: {fileID: 0}
+  enemyHealt: {fileID: 0}
   scoreBar: {fileID: 87748192}
   minScore: 0
+  isInfected: 0
   upScore: 0
 --- !u!114 &87748192
 MonoBehaviour:
@@ -1030,6 +1033,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healtBar: {fileID: 216846990}
+  MinHealt: 0
   MaxHealt: 100
   currentHealt: 0
 --- !u!114 &216846990
@@ -2328,7 +2332,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -0.050048828, y: -5.6500244}
+  m_AnchoredPosition: {x: -0.049804688, y: -5.6503906}
   m_SizeDelta: {x: -18.86, y: 6.84}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &957835345

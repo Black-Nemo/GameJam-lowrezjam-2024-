@@ -5,6 +5,7 @@ using UnityEngine.AI;
 
 public class CharacterInfectedSystem : MonoBehaviour
 {
+    public Collider2D parentCollider;
     public float infectionTime;
 
     public bool isIntoTheHuman;
@@ -52,7 +53,10 @@ public class CharacterInfectedSystem : MonoBehaviour
 
         if (isIntoTheHuman)
         {
-            transform.position = _human.transform.position;
+            transform.parent.transform.position = _human.transform.position;
+            parentCollider.enabled = false;
+        }else{
+            parentCollider.enabled = true;
         }
     }
     private void IntoTheHuman()
@@ -78,6 +82,7 @@ public class CharacterInfectedSystem : MonoBehaviour
     float _waitTimer = 0;
     IEnumerator infectionEnumator()
     {
+        _human.GetComponent<Enemy>().animator.Play("ConvertInfected");
         while (true)
         {
             if (_waitTimer >= infectionTime)

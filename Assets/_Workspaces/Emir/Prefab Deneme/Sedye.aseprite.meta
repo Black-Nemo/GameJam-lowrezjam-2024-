@@ -150,7 +150,6 @@ ScriptedImporter:
     cells:
     - name: Sedye
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 22

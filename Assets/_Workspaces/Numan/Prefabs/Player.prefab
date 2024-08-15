@@ -417,6 +417,7 @@ GameObject:
   - component: {fileID: 1395274840}
   - component: {fileID: 25160182191160544}
   - component: {fileID: 508528438}
+  - component: {fileID: 1225086146265367534}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -484,7 +485,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: -1120811776, guid: 3aec4360db8b7284f82ac7b75315fa26, type: 3}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
@@ -492,7 +493,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!50 &2031026519933051879
@@ -585,10 +586,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b845745eef5b5594d92bb0d543f36725, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  infectionTime: 0
   isIntoTheHuman: 0
   spriteRenderer: {fileID: 2031026519933051875}
   myCollider2D: {fileID: 2031026519933051877}
-  navMeshAgent: {fileID: 0}
   IntoTheHumanEnterCanvas: {fileID: 4026156009975017122}
 --- !u!114 &508528438
 MonoBehaviour:
@@ -606,6 +607,27 @@ MonoBehaviour:
   firePoint: {fileID: 1298501925}
   projectilePrefab: {fileID: 6927550163429681958, guid: 26dec6c2b85acbd4b8d495e3fc4a5195, type: 3}
   fireRate: 0.5
+--- !u!95 &1225086146265367534
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2031026519933051872}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c39110d926b7a944aae5dc2c82fee401, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &4026156009975017122
 GameObject:
   m_ObjectHideFlags: 0

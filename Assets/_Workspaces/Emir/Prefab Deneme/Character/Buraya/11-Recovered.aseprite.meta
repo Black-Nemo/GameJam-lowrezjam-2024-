@@ -190,7 +190,6 @@ ScriptedImporter:
     cells:
     - name: 11-Recovered_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
@@ -199,7 +198,6 @@ ScriptedImporter:
       spriteId: 6ec0efc79e8db06488a22e287d77f642
     - name: 11-Recovered_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
@@ -208,7 +206,6 @@ ScriptedImporter:
       spriteId: 4e4a0e9177fb9bf4d90b7e93272458db
     - name: 11-Recovered_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0

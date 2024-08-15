@@ -28,9 +28,12 @@ public class Enemy : MonoBehaviour
 
     public List<MoveNode> moveRandomNodes;
 
+    public Animator animator;
+
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
+        animator = GetComponent<Animator>();
         agent.updateRotation = false;
         agent.updateUpAxis = false;
 
@@ -111,13 +114,15 @@ public class Enemy : MonoBehaviour
     {
         if (isInfected)
         {
-            infectedSpriteObject.SetActive(true);
-            notInfectedSpriteObject.SetActive(false);
+            
+            //infectedSpriteObject.SetActive(true);
+            //notInfectedSpriteObject.SetActive(false);
         }
         else
         {
-            infectedSpriteObject.SetActive(false);
-            notInfectedSpriteObject.SetActive(true);
+
+            //infectedSpriteObject.SetActive(false);
+            //notInfectedSpriteObject.SetActive(true);
         }
 
         if (fov.player != null)
@@ -164,6 +169,7 @@ public class Enemy : MonoBehaviour
     float _waitTimerInfectionReverse = 0;
     IEnumerator infectionReverseEnumator(GameObject other)
     {
+        other.gameObject.GetComponent<Enemy>().animator.Play("ConvertNotInfected");
         while (true)
         {
             if (_waitTimerInfectionReverse >= infectionReverseTime)
