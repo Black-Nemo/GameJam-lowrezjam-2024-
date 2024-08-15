@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 823769ec58794d4489a0d54f7c14e769
+guid: 3b2b6de5cb1cb0c4fa972098084052d8
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -119,18 +119,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: sonhealtbar
+  - name: sprite cizimleri ve fayanslar
     originalName: 
-    pivot: {x: 0.5, y: -2.6666667}
+    pivot: {x: 0.5, y: -1.8636364}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 16
-      height: 3
-    spriteID: 6ef2920f445fbf24f91d3e0f1b49d223
+      width: 62
+      height: 22
+    spriteID: c43bfd132e5b6934fb759d4b62ee7cfc
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -142,25 +142,25 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 673524643
-    name: sonhealtbar
+    guid: 1976726393
+    name: sprite cizimleri ve fayanslar
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: sonhealtbar
+    - name: sprite cizimleri ve fayanslar
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 0
-        y: 8
-        width: 16
-        height: 3
-      spriteId: 6ef2920f445fbf24f91d3e0f1b49d223
+        x: 1
+        y: 41
+        width: 62
+        height: 22
+      spriteId: c43bfd132e5b6934fb759d4b62ee7cfc
     linkedCells: []
     parentIndex: -1
   platformSettings: []
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 16, y: 16}
+  canvasSize: {x: 64, y: 64}

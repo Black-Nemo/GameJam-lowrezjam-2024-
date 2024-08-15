@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 823769ec58794d4489a0d54f7c14e769
+guid: 455eddac409141446b345b47d34b59bb
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -119,9 +119,9 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: sonhealtbar
+  - name: Fayans
     originalName: 
-    pivot: {x: 0.5, y: -2.6666667}
+    pivot: {x: 0, y: -1.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -129,8 +129,8 @@ ScriptedImporter:
       x: 4
       y: 4
       width: 16
-      height: 3
-    spriteID: 6ef2920f445fbf24f91d3e0f1b49d223
+      height: 16
+    spriteID: 46cb9a4ad35bb0848b5860669b241b78
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -142,25 +142,25 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 673524643
-    name: sonhealtbar
+    guid: -1679459718
+    name: Fayans
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: sonhealtbar
+    - name: Fayans
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 0
-        y: 8
+        x: 32
+        y: 24
         width: 16
-        height: 3
-      spriteId: 6ef2920f445fbf24f91d3e0f1b49d223
+        height: 16
+      spriteId: 46cb9a4ad35bb0848b5860669b241b78
     linkedCells: []
     parentIndex: -1
   platformSettings: []
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 16, y: 16}
+  canvasSize: {x: 64, y: 64}

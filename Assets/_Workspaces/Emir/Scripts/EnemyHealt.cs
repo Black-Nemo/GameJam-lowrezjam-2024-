@@ -6,6 +6,7 @@ public class EnemyHealt : MonoBehaviour
 {
    public healtBar healtBar;
    
+   public int MinHealt = 0;
    public int MaxHealt = 100;
    public int currentHealt;
 
@@ -16,14 +17,14 @@ public class EnemyHealt : MonoBehaviour
     
    } 
 
-    private void Update() {
-        if(Input.GetKeyDown(KeyCode.E))
-        {
+
+    private void OnCollisionEnter2D(Collision2D other) {
+        
             TakeDamage(20);
             healtBar.SetHealt(currentHealt);
-        }
+        
+    
     }
-
 
    public void TakeDamage (int damage)
    {
